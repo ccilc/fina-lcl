@@ -1,0 +1,29 @@
+{
+  "name": "fina-lcl-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "core-js": "^3.37.1",
+    "vue": "^3.4.31",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "typescript": "~5.4.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
